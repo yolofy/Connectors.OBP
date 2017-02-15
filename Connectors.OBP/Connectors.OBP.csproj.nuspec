@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Connectors.OBP\Connectors.OBP.csproj</id>
+    <version>1.0.0</version>
+    <authors>Yolofy</authors>
+    <owners>Yolofy</owners>
+    <licenseUrl>https://github.com/yolofy/Connectors.OBP/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/yolofy/Connectors.OBP</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Connector for OBP api</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>OBP Banking</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+</package>
