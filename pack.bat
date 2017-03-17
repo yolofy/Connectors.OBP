@@ -1,0 +1,1 @@
+nuget pack Connectors.OBP/Connectors.OBP.csproj.nuspec

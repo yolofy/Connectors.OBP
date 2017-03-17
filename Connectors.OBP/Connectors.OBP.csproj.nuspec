@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Connectors.OBP\Connectors.OBP.csproj</id>
-    <version>1.0.0</version>
+    <id>Connectors.OBP</id>
+    <version>1.0.1</version>
     <authors>Yolofy</authors>
     <owners>Yolofy</owners>
     <licenseUrl>https://github.com/yolofy/Connectors.OBP/blob/master/LICENSE</licenseUrl>
@@ -13,6 +13,16 @@
     <copyright>Copyright 2017</copyright>
     <tags>OBP Banking</tags>
     <dependencies>
+		<dependency id="Newtonsoft.Json" version="9.0.1"></dependency>
+		<dependency id="RestSharp" version="105.2.3"></dependency>
+		<dependency id="RestSharp.Newtonsoft.Json" version="1.0.0"></dependency>
+		<dependency id="StringFormat" version="1.0.0"></dependency>
     </dependencies>
   </metadata>
+    <files>
+        <file src="bin\Release\Connectors.OBP.dll" target="lib\Connectors.OBP.dll" />
+        <file src="bin\Release\Connectors.OBP.pdb" target="lib\Connectors.OBP.pdb" />
+        <file src="bin\Release\Connectors.OBP.dll" target="lib\Connectors.OBP.dll" />
+        <file src="bin\Release\Connectors.OBP.pdb" target="lib\Connectors.OBP.pdb" />
+    </files>
 </package>
