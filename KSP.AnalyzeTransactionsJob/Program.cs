@@ -9,7 +9,7 @@
     class Program
     {
         static string bankId = "psd201-bank-x--uk";
-        static string accountId = "90909090";
+        static string accountId = "05237266-b334-4704-a087-5b460a2ecf04";
         static string viewId = "owner";
         static string transactionRequestType = "SANDBOX_TAN";
         static string description = "TX1";
@@ -17,12 +17,12 @@
 
         static void Main(string[] args)
         {
-            Console.BufferHeight = short.MaxValue -1;
+//            Console.BufferHeight = short.MaxValue -1;
 
             var url = "https://psd2-api.openbankproject.com/";
             var client = new ObpRestClient(url);
 
-            client.Login("robert.xuk.x@example.com", "<password>", "<consumerKey>");
+            client.Login("robert.xuk.x@example.com", "5232e7", "ov1bxxx5wljn1kwrr2grlo3wdxtafidgptj4ilab");
 
           
             if (TxExists(description, client, new DateTime(2017, 01, 19)))
